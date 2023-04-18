@@ -6,6 +6,7 @@ def index(request):
 
 
 def koushik(request):
+    # added from koushik
     return HttpResponse("Hello Koushik")
 
 def ananymous(request, name):
