@@ -2,6 +2,7 @@ from django.http import HttpResponse
 from django.shortcuts import render
 
 def index(request):
+    # second changes
     return render(request,"index.html")
 
 
